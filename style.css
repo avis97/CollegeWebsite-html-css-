@@ -1,0 +1,447 @@
+*{
+    padding: 0%;
+    margin:0%;
+}
+.header{
+    height:650px;
+    width: 100%;
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(image/banner.png);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+.row{
+    height:200px;
+    width: 90%;
+    position: relative;
+    margin: auto;
+    padding-top:20px;
+}
+.navlinks{
+    padding: 20px;
+    position: relative;
+    float: right;
+}
+.navlinks li{
+    display: inline-block;
+}
+.navlinks a{
+    text-decoration: none;
+    color:white;
+    font-size: 20px;
+    transition: 500ms;
+    padding: 10px;
+}
+.row img{
+    padding: 20px;
+}
+.navlinks a:hover{
+      color: brown;
+      text-decoration: underline;
+}
+.heading{
+    width: 80%;
+    height:150px;
+    margin:50px auto;
+    text-align: center;
+    padding-top:30px;
+}
+.heading h1{
+    font-size: 50px;
+    color: white;
+}
+.heading p{
+    display: inline-block;
+    color: white;
+    margin-top: 10px;
+}
+.heading div a{
+    text-decoration: none;
+    color: white;
+    border:1px solid white;
+    text-align: center;
+    display: inline-block;
+    background-color: transparent;
+    padding: 10px;
+    height: 15px;
+    width: 200px;
+    margin-top:20px;
+    border-radius: 10%;
+    transition: 500ms;
+}
+.heading div a:hover{
+    background-color: brown;
+    color: black;
+}
+
+/* course */
+.course{
+    width:80%;
+    height:300px;
+    margin: 30px auto;
+    text-align:center;
+    padding-top: 40px;
+    color:black;
+    margin-bottom: 100px;
+}
+.course h1{
+    font-size: 50px;
+    padding-bottom: 10px;
+}
+.courserow{
+    display:flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+.coursebox{
+    height:200px;
+    width:300px;
+    text-align: center;
+    background-color: rgb(212, 189, 189);
+    border-radius: 10px;
+    font-style: italic;
+    transition: 500ms;
+}
+.coursebox h1{
+    font-size: 30px;
+}
+.coursebox:hover{
+    box-shadow:0 0 20px 0 rgba(0,0,0,0.7);
+}
+
+/* campus */
+.campus{
+    text-align: center;
+    width: 80%;
+    height: 500px;
+    margin:60px auto;
+}
+#hcampus{
+    font-size:50px;
+    margin-bottom: 40px;
+}
+.campusphotos{
+    height: 400px;
+    width: 300px;
+    border-radius: 10px;
+}
+.campusbox{
+    display:flex;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+.campusphotos img{
+    width:100%;
+    height: 100%;
+    border-radius: 10px;
+    transition: 500ms;
+}
+.campusphotos img:hover{
+    transform: scale(1.1);
+}
+.campusphotos h1{
+    margin-top: 20px;
+}
+
+  /* facilities */
+.facilities{
+    height: 450px;
+    width: 70%;
+    margin:150px auto;
+    text-align: center;
+}
+.fasirow{
+    display:flex;
+    height: 350px;
+    margin:40px auto;
+    justify-content: space-around;
+}
+.fasirow div{
+     height:300px;
+     width: 200px;
+     margin-top: 40px;
+     border-radius: 10px;
+}
+.fasirow div img{
+    width: 100%;
+    border-radius: 10px;
+}
+.facilities h1{
+    font-size: 50px;
+}
+
+/* review */
+
+.review{
+    height:400px;
+    width:80%;
+    margin:-150px auto;
+    text-align: center;
+}
+.reviewstudent{
+    height:300px;
+    margin-top:40px;
+    display:flex;
+    justify-content: space-around;
+}
+.reimg{
+    height:250px;
+    width: 500px;
+    margin-top: 30px;
+    text-align: center;
+    border-radius: 10px;
+    background-color: rgb(233, 226, 226);
+}
+.reimg div{
+    height:60px;
+    width:80px;
+    flex-basis: 6%;
+    margin: 10px auto;
+    margin-bottom: 40px;
+}
+.reimg div img{
+     width: 100%;
+     border-radius: 50%;
+     transition: 1s;
+}
+.reimg div img:hover{
+    transform: scale(1.1);
+}
+.review h1{
+    font-size: 50px;
+}
+
+/* action */
+.action{
+    height:350px;
+    width:80%;
+    margin:300px auto;
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(/image/banner2.jpg);
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    border-radius: 10px;
+    margin-bottom:120px;
+}
+.action h1{
+    font-size:40px;
+    color: white;
+}
+.actioncall{
+    display:inline-block;
+    margin-top: 100px;
+}
+.actioncall a{
+    text-decoration: none;
+    color: white;
+    border:1px solid white;
+    text-align: center;
+    display: inline-block;
+    background-color: transparent;
+    height: 20px;
+    width: 120px;
+    margin-top:20px;
+    transition: 500ms;
+    font-size: 15px;
+    padding: 10px;
+    transition: 500ms;
+}
+.actioncall a:hover{
+    background-color: brown;
+}
+
+/* footer */
+.footer{
+    margin:auto;
+    text-align: center;
+    margin-bottom: 30px;
+    color: rgba(4,9,30,0.7);
+}
+.footer h1{
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+.icon i{
+    color:brown;
+    padding:10px
+}
+
+
+/*----------- about Us -------------*/
+.sub-header{
+    height:50vh;
+    border:1px solid black;
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(image/background.jpg);
+    background-position: center;
+    background-size:cover;
+    text-align: center;
+}
+.manusite{
+    position:relative;
+    top:30px;
+    right:30px;
+    float:right;
+    height: 40px;
+    width: 500px;
+}
+.manusite li{
+    display:inline-block;
+    padding: 10px;
+}
+.manusite li a{
+    text-decoration: none;
+    color:white;
+    font-size: 20px;
+    transition: 500ms;
+}
+.manusite li a:hover{
+    color: brown;
+    text-decoration: underline;
+}
+.rowa{
+    font-size: 40px;
+    color: bisque;
+    position: absolute;
+    top:50px;
+    left:40px;
+}
+
+.det{
+    height:500px;
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+}
+.a1{
+    height:350px;
+    width:400px;
+    position: relative;
+    top:50px;
+    left:100px;
+}
+.a2{
+    height:450px;
+    width:500px;
+    position: relative;
+    top:50px;
+}
+.a2 img{
+    width: 100%;
+}
+.a1 h1{
+    font-size: 40px;
+}
+.a1 a{
+    text-decoration: none;
+    border:1px solid red;
+    display: inline-block;
+    position: relative;
+    top:20px;
+    left:30px;
+    padding: 15px;
+    color: black;
+}
+  /* -------------courses ----------------*/
+
+
+.footer-co{
+    margin:auto;
+    text-align: center;
+    margin-bottom: 30px;
+    color: rgba(4,9,30,0.7);
+}
+.footer-co h1{
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+.icon i{
+    color:brown;
+    padding:10px
+}
+.coursedet
+{
+    height: 300px;
+    width: 80%;
+    margin:auto; 
+    text-align: justify;
+    background-color: rgb(240, 234, 234);
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+.coursedet h2{
+    font-size:30px;
+    margin-bottom: 40px;
+    margin-left:270px;
+}
+.coursedet p{
+     margin-bottom: 40px;
+     margin-left: 20px;
+}
+.coursedet p i{
+    color: rgb(224, 147, 147);
+    margin-left: 10px;
+    margin-right: 20px;
+}
+
+/* ---------Contact -----------*/
+.location{
+    width:80%;
+    margin:auto;
+    padding: 80px 0;
+}
+.location iframe{
+    width:100%;
+    height: 500px;
+}
+.contact{
+    width:80%;
+    height: 600px;
+    margin:30px auto;
+    display:flex;
+    justify-content: space-around;
+}
+.contactD{
+    width:500px;
+    height:550px;
+    margin-top: 40px;
+    display: block;
+}
+.contactD div{
+    height:70px;
+    width: 350px;
+    position: relative;
+    top:50px;
+    left:30px;
+    padding: 20px;
+}
+.contactD div i{
+    font-size: 25px;
+    color: brown;
+    padding: 12px;
+}
+.contactD div h5{
+    font-size: 20px;
+}
+.contactD input,textarea{
+    padding: 10px;
+    margin: 10px;
+    font-size: 15px;
+    width: 400px;
+}
+.contactD button{
+    padding: 10px;
+    font-size: 15px;
+    width: 100px;
+    background-color: transparent;
+    position: relative;
+    top:10px;
+    left:32px;
+    border: 1px solid red;
+    transition: 500ms;
+}
+.contactD button:hover{
+    background-color: brown;
+}
+
